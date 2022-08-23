@@ -1,26 +1,21 @@
+class NumberData {
+  final String label;
+  final String sublabel;
 
+  NumberData({required this.label, required this.sublabel});
 
-class MyButtons{
-
-  final String MyLetters;
-  final String MyNumber;
-
-  MyButtons({required this.MyNumber, required this.MyLetters});
-
-  static String selectedNum = "";
-
-  static List<MyButtons> button = [
-      MyButtons(MyNumber: "1", MyLetters: ""),
-      MyButtons(MyNumber: "2", MyLetters: "ABC"),
-      MyButtons(MyNumber: "3", MyLetters: "DEF"),
-      MyButtons(MyNumber: "4", MyLetters: "GHI"),
-      MyButtons(MyNumber: "5", MyLetters: "JKL"),
-      MyButtons(MyNumber: "6", MyLetters: "MNO"),
-      MyButtons(MyNumber: "7", MyLetters: "PQRS"),
-      MyButtons(MyNumber: "8", MyLetters: "TUV"),
-      MyButtons(MyNumber: "9", MyLetters: "WXYZ"),
-      MyButtons(MyNumber: "*", MyLetters: ""),
-      MyButtons(MyNumber: "0", MyLetters: "+"),
-      MyButtons(MyNumber: "#", MyLetters: ""),
+  static List<NumberData> buttons = [
+    NumberData(label: "1", sublabel: ""),
+    NumberData(label: "2", sublabel: "ABC"),
+    NumberData(label: "3", sublabel: "DEF"),
+    NumberData(label: "4", sublabel: "GHI"),
+    NumberData(label: "5", sublabel: "JKL"),
+    NumberData(label: "6", sublabel: "MNO"),
+    NumberData(label: "7", sublabel: "PGRS"),
+    NumberData(label: "8", sublabel: "TUV"),
+    NumberData(label: "9", sublabel: "WXYZ"),
+    NumberData(label: "*", sublabel: ""),
+    NumberData(label: "0", sublabel: "+"),
+    NumberData(label: "#", sublabel: ""),
   ];
 }
